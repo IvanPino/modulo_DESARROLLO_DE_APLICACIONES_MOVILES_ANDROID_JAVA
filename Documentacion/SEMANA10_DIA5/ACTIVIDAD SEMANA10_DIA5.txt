@@ -1,0 +1,68 @@
+**********************************************************************************
+**********************************************************************************
+ACTIVIDAD N°1: Instalación de Android Studio (ok) y StarUML (ok)
+**********************************************************************************
+**********************************************************************************
+ACTIVIDAD N°2: Investigación inicial
+**********************************************************************************
+**********************************************************************************
+Caso de uso: 
+*Parte del diagrama que describe un conjunto de secuencia de acciones
+incluyendo variables que se ejecutan en el sistema para producir un resultado
+observable de un valor para un actor. Interaccion entre el actor y un sistema
+*Describe que hace el sistema, pero no como lo hace
+*Produce algo de valor para quien esté en el sistema
+
+¿Para que sirve?
+*capturar el comportamiento deseado del sistema sin especificarlo
+*Comprensión del sistema
+*Validar la arquitectura y verificar el sistema
+
+Notación:
+*Caso de uso
+*Actor
+-Deben comunicarse entre ellos, debe tener un flujo de eventos
+
+Especificación de un acso de uso suele incluir
+*Descripción general: uno o varios requisitos funcionales
+*Pre-condiciones: Condiciones que se deben cumplir para cumplirse el caso de uso
+*Post-condiciones:Condiciones que se deben cumplir posteriormente para cumplirse el caso de uso
+*Escenarios: Toda la descripción de todos los eventos posibles que se puedan dar dentro del caso de uso
+
+Relaciones
+*Generalización
+*Inclusión
+*Extensión
+
+https://www.youtube.com/watch?v=eStxoMGVqm8
+
+**********************************************************************************
+**********************************************************************************
+
+Descripción Flujo de eventos
+
+Flujo de eventos principal:
+-Operador ingresa sus datos personales
+-Operador selecciona al paciente
+-Operador selecciona la radiografía a realizar en la consola de parámetros
+-Operador posiciona al paciente
+-Operador aleja o acerca el dispositivo (celular) según distancia requerida
+-Operador rota el celular para coincidir con la angulación requerida
+-Operador toma la radiografía
+-Operador recibe el informe de dosis
+
+Flujo de eventos Excepcional 1:
+-El Operador puede cancelar el proceso en cualquier momento pulsando el boton Cancelar, reiniciando de
+esta forma este caso de uso.
+
+Flujo de eventos Excepcional 2:
+-El Operador puede seleccionar manaualmente el kilovoltaje y miliamperaje que necesite en la consola
+de parámetros
+
+Flujo de eventos Excepcional 3:
+-El Operador puede seleccionar manaualmente la angulación que necesite en la consola
+de parámetros
+
+Flujo de eventos Excepcional 3:
+-El Operador puede seleccionar manaualmente la angulación que necesite en la consola
+de parámetros
