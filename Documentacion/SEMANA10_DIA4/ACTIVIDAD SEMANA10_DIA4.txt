@@ -1,0 +1,38 @@
+**********************************************************************************
+**********************************************************************************
+ACTIVIDAD N°1: Investigación (Resumen de apuntes)
+**********************************************************************************
+**********************************************************************************
+
+Caso de uso: 
+*Parte del diagrama que describe un conjunto de secuencia de acciones
+incluyendo variables que se ejecutan en el sistema para producir un resultado
+observable de un valor para un actor. Interaccion entre el actor y un sistema
+*Describe que hace el sistema, pero no como lo hace
+*Produce algo de valor para quien esté en el sistema
+
+¿Para que sirve?
+*capturar el comportamiento deseado del sistema sin especificarlo
+*Comprensión del sistema
+*Validar la arquitectura y verificar el sistema
+
+Notación:
+*Caso de uso
+*Actor
+-Deben comunicarse entre ellos, debe tener un flujo de eventos
+
+Especificación de un acso de uso suele incluir
+*Descripción general: uno o varios requisitos funcionales
+*Pre-condiciones: Condiciones que se deben cumplir para cumplirse el caso de uso
+*Post-condiciones:Condiciones que se deben cumplir posteriormente para cumplirse el caso de uso
+*Escenarios: Toda la descripción de todos los eventos posibles que se puedan dar dentro del caso de uso
+
+Relaciones
+*Generalización
+*Inclusión
+*Extensión
+
+https://www.youtube.com/watch?v=eStxoMGVqm8
+
+**********************************************************************************
+**********************************************************************************
